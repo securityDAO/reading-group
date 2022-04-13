@@ -1,0 +1,18 @@
+[submodule "lib/ds-test"]
+	path = lib/ds-test
+	url = https://github.com/dapphub/ds-test
+[submodule "lib/ds-token"]
+	path = lib/ds-token
+	url = https://github.com/dapphub/ds-token
+[submodule "lib/ds-thing"]
+	path = lib/ds-thing
+	url = https://github.com/dapphub/ds-thing
+[submodule "lib/ds-value"]
+	path = lib/ds-value
+	url = https://github.com/dapphub/ds-value
+[submodule "lib/ds-warp"]
+	path = lib/ds-warp
+	url = https://github.com/dapphub/ds-warp
+[submodule "lib/ds-guard"]
+	path = lib/ds-guard
+	url = https://github.com/dapphub/ds-guard

@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -ex
+
+# drop ownership of a deployed system
+
+null="0x0000000000000000000000000000000000000000"
+
+objects="$SAI_VOX
+$SAI_TUB
+$SAI_TAP
+$SAI_TOP
+$SAI_SAI
+$SAI_SIN
+$SAI_SKR
+$SAI_DAD
+"
+
+for object in $objects; do
+    seth send $object 'setOwner(address)' $null
+done
