@@ -1,0 +1,3 @@
+[submodule "src/tendermint/jepsen"]
+	path = src/tendermint/jepsen
+	url = git@github.com:jepsen-io/tendermint.git
